@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//3 zarın üst yüzüne gelen sayılarının toplam sonucu bir kolonda, olasılığını diğer kolonda tutunuz
+//3 zarÃ½n Ã¼st yÃ¼zÃ¼ne gelen sayÃ½larÃ½nÃ½n toplam sonucu bir kolonda, olasÃ½lÃ½Ã°Ã½nÃ½ diÃ°er kolonda tutunuz
 
 int main(){
     int i,j;
@@ -46,7 +46,7 @@ int main(){
         }
     }
 
-    //Olasılık matrisini bastırma
+    //OlasÃ½lÃ½k matrisini bastÃ½rma
     printf("\n-----OLASILIK MATRISI-----\n");
     for(i=0;i<16;i++){
         for(j=0;j<2;j++){
@@ -60,7 +60,7 @@ int main(){
         printf("\n");
     }
 
-    //matris ve kullandıgımız diziyi free() yapma islemi
+    //matris ve kullandÃ½gÃ½mÃ½z diziyi free() yapma islemi
     for(i=0;i<16;i++){
         free(olasilik[i]);
     }
