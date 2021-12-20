@@ -40,7 +40,6 @@ int main(){
     }while(choose==0||choose==1);
     printf("\nProgram Sonlandi");
     
-    printf("\ni: %d\n",i);
     for(j=0;j<i;j++){
         if(y[j].tip == 0){
             average = average + y[j].BIRLESIM.n;
